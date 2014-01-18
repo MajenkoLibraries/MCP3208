@@ -1,17 +1,6 @@
 #include <MCP3208.h>
-
-#ifdef __PIC32MX__
-
-#include <DSPI.h>
-DSPI0 spi;
-MCP3208 adc(&spi, 10);
-
-#else
-
 #include <SPI.h>
 MCP3208 adc(10);
-
-#endif
 
 void setup() {
 	adc.begin();
