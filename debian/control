@@ -7,6 +7,7 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
 Package: libmcp3208
+Provides: MCP3208.h
 Architecture: all
 Description: MCP3208 library
 
