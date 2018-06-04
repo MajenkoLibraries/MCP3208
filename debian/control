@@ -1,8 +1,9 @@
 Source: libmcp3208
-Section: libraries
+Section: main
 Priority: extra
-XBSC-Group: Analog
-XBSC-Subgroup: ADC
+XBSC-Group: Libraries
+XBSC-SubGroup: Analog
+XBSC-SubSubgroup: ADC
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
