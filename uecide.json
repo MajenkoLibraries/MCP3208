@@ -1,0 +1,18 @@
+{
+    "name": "MCP3208",
+    "provides": "MCP3208.h",
+    "license": "LICENSE.md",
+    "readme": "README.md",
+    "description": "MCP3208 ADC library",
+    "category": "IO",
+    "subcategory": "Analog",
+    "maintainer": "Matt Jenkins <matt@majenko.co.uk>",
+    "version": "1.0.8",
+    "family": "all",
+    "core": "all",
+    "install": {
+        "examples": "/",
+        "MCP3208.cpp": "/",
+        "MCP3208.h": "/"
+    }
+}
